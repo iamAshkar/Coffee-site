@@ -1,0 +1,517 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    background-color: rgb(236, 208, 118);
+
+}
+
+
+.div1 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(220, 153, 60);
+    height: 120px;
+}
+
+.div1 img {
+    width: 110px;
+    margin-right: 20px;
+}
+
+.div1 h1 {
+    font-family: 'Black Ops One', cursive;
+    font-size: 750%;
+    color: rgb(48, 31, 19);
+    text-shadow: 5px 5px 5px black;
+}
+
+.div2 {
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(220, 153, 60);
+    position: sticky;
+    top: 0;
+    height: 25px;
+}
+
+.div2 h4 {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+#section1 {
+    color: rgb(63, 38, 15);
+    height: 450px;
+    padding-top: 30px;
+    /* background-color: rgb(236, 208, 118); */
+}
+
+.row h1 {
+    font-size: 60px;
+}
+
+.col-8 {
+    margin-top: 80px;
+}
+
+.col-8 h6 {
+    border: 2px ridge black;
+    padding: 50px;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+/* #types{
+    /* height: 620px; */
+/* background-color: rgb(236, 208, 118);} */
+
+
+.container-fluid h1 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 60px;
+    font-weight: bolder;
+    color: rgb(48, 31, 19);
+    text-shadow: 2px 3px 4px black;
+
+}
+
+.container-fluid p {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 550;
+    color: black;
+
+}
+
+.brands {
+    font-family: 'Playfair Display', serif;
+    color: black;
+    text-align: justify;
+    /* background-color: rgb(236, 208, 118); */
+    padding-top: 30px;
+}
+
+
+
+.brands img {
+    width: 330px;
+    object-fit: cover;
+    height: 250px;
+    box-shadow: 4px 4px 6px black;
+    transition: transform 0.5s ease-in-out;
+    transform: scale(1.1);
+}
+
+
+.form .col-8 {
+    border: 3px solid black;
+    padding: 50px;
+    background-color: rgb(220, 153, 60);
+
+}
+
+.form input {
+    width: 450px;
+    border: 2px inset black;
+}
+
+.form textarea {
+    width: 450px;
+    border: 2px solid black;
+}
+
+.col-8 form {
+    margin-left: 20%;
+}
+
+
+.col-8 label {
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+
+}
+
+.col-8 form button {
+    padding: 5px;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bolder;
+    background-color: rgb(77, 24, 0);
+    color: white;
+    width: 80px;
+    transition: transform 0.5s ease-in-out;
+    margin-left: 30%;
+
+}
+
+.col-8 form button:hover {
+    transform: scale(1.1);
+    background-color: rgb(220, 153, 60);
+    box-shadow: 2px 2px 4px black;
+}
+
+
+footer {
+    background-color: rgb(220, 153, 60);
+    margin-top: 30px;
+    border-radius: 15px;
+    padding: 20px;
+    height: 230px;
+}
+
+
+footer .col-4 h1 {
+    font-family: 'Shadows Into Light', cursive;
+
+}
+
+i {
+    margin-right: 8px;
+}
+
+.col-4 ul {
+    display: flex;
+}
+
+.col-4 ul li {
+    margin-left: 20px;
+}
+
+.col-4 a {
+    text-decoration: none;
+    color: rgb(78, 50, 12);
+    font-weight: bolder;
+    margin-left: 80px;
+
+}
+
+.col-4 a:hover {
+    color: antiquewhite;
+}
+
+.gallery {
+    background-color: rgb(220, 153, 60);
+    border-radius: 10px;
+    padding-bottom: 50px;
+    box-shadow: 3px 2px 3px 4px rgba(0, 0, 0, 0.5);
+}
+
+.gallery img {
+    height: 250px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-left: 24px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.gallery img:hover {
+    transform: scale(0.9);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.gallery h1 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 60px;
+    font-weight: bolder;
+    color: rgb(48, 31, 19);
+    text-shadow: 2px 3px 4px black;
+}
+@media screen and (max-width : 400px){
+    body{
+        margin: 0px;
+        padding: 0px;
+        width: 100%
+    }
+    
+main {
+    background-color: rgb(236, 208, 118);
+
+}
+
+
+.div1 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(220, 153, 60);
+    height: 120px;
+}
+
+.div1 img {
+    width: 70px;
+    margin-right: 20px;
+}
+
+.div1 h1 {
+    font-family: 'Times New Roman', Times, serif, cursive;
+    font-size: 50px;
+    width: 400px;
+    color: rgb(48, 31, 19);
+    text-shadow: 5px 5px 5px black;
+}
+
+.div2 {
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(220, 153, 60);
+    position: sticky;
+    top: 0;
+    height: 25px;
+}
+
+.div2 h4 {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+#section1 {
+    color: rgb(63, 38, 15);
+    height:820px;
+    padding-top: 30px;
+    
+}
+.row{
+    height: 600px;
+    width: 400px;
+}
+
+.row h1 {
+    font-size: 60px;
+}
+
+.col-8 {
+    margin-top: 80px;
+}
+.col-8{
+    height: 400px;
+}
+
+.col-8 h6 {
+    border: 2px ridge black;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    border-radius: 20px;
+    width: 300px;
+    
+}
+#type{
+   height: 600px;
+}
+
+
+.col-4 {
+    width: 400px;
+    position: absolute;
+    
+    
+    margin-top: 50px;
+}
+.col-6 p{
+    width: 300px;
+
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 0px;
+    text-align: justify;
+    
+    
+
+}
+
+
+.container-fluid h1 {
+    font-family: 'Times New Roman', Times, serif, cursive;
+    font-size: 60px;
+    font-weight: bolder;
+    color: rgb(48, 31, 19);
+    text-shadow: 2px 3px 4px black;
+
+}
+
+.container-fluid p {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 550;
+    color: black;
+
+}
+
+.brands {
+    margin-top: 300px;
+    font-family: 'Playfair Display', serif;
+    color: black;
+    text-align: justify;
+    width: 400px;
+   
+    align-items: center;
+    
+}
+
+
+
+.brands .col-4 img {
+    width: 280px;
+    height: 200px;
+    margin-top: 1px;
+    object-fit: cover;
+    
+    box-shadow: 4px 4px 6px black;
+    transition: transform 0.5s ease-in-out;
+    transform: scale(1.1);
+}
+.brands .col-6 h4{
+padding: 20px;
+}
+.brands .col-6 p{
+    /* padding: 20px; */
+    margin-top: 400px;
+    }
+
+
+.form .col-8 {
+    border: 3px solid black;
+    padding: 50px;
+    background-color: rgb(220, 153, 60);
+
+}
+
+.form input {
+    width: 100px;
+    border: 2px inset black;
+}
+
+.form textarea {
+    width: 150px;
+    border: 2px solid black;
+}
+
+.col-8 form {
+    margin-left: 20%;
+}
+
+
+.col-8 label {
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+
+}
+
+.col-8 form button {
+    padding: 5px;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bolder;
+    background-color: rgb(77, 24, 0);
+    color: white;
+    width: 80px;
+    transition: transform 0.5s ease-in-out;
+    margin-left: 0%;
+
+}
+
+.col-8 form button:hover {
+    transform: scale(1.1);
+    background-color: rgb(220, 153, 60);
+    box-shadow: 2px 2px 4px black;
+}
+
+
+
+.gallery {
+    
+    background-color: rgb(220, 153, 60);
+    border-radius: 10px;
+    padding-bottom: 50px;
+    box-shadow: 3px 2px 3px 4px rgba(0, 0, 0, 0.5);
+}
+
+.gallery img {
+    height: 200px;
+    margin: 2px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-left: 24px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.gallery img:hover {
+    transform: scale(0.9);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.gallery h1 {
+    font-family: 'Times New Roman', Times, serif, cursive;
+    font-size: 60px;
+    font-weight: bolder;
+    color: rgb(48, 31, 19);
+    text-shadow: 2px 3px 4px black;
+}
+footer {
+    width: 400px;
+    
+    background-color: rgb(220, 153, 60);
+    
+    border-radius: 15px;
+    padding: 20px;
+    height: 630px;
+    
+    
+}
+
+footer .col-4 img{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    margin-left: 100%;
+    margin-top: 40px;
+}
+
+
+footer .col-4 h1 {
+    font-family: 'Times New Roman', Times, serif, cursive;
+    width: 40px;
+    font-size: 200%;
+ 
+
+}
+
+
+i {
+    margin-right: 8px;
+}
+
+.col-4 ul {
+    display: flex;
+}
+
+.col-4 ul li {
+    flex-direction: column;
+   
+}
+
+.col-4 a {
+    position: absolute;
+    margin-top: 300px;
+    text-decoration: none;
+    color: rgb(78, 50, 12);
+    font-weight: bolder;
+    margin-left: 80px;
+    flex-direction: column;
+
+}
+
+.col-4 a:hover {
+    color: antiquewhite;
+}
+
+}
